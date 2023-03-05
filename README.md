@@ -16,8 +16,8 @@
  </p>
  
 <p>
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=stormckey&count_private=true&hide=stars&icon_color=fff&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="logo" height="160" width="450" align="left"  /> 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stormckey&hide=javascript,html,CSS&layout=compact&icon_color=fff&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="logo" height="160" width="450" align="left"  />
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=stormckey&count_private=true&hide=stars&icon_color=fff&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="logo" height="140" width="450" align="left" style="margin: 5px; margin-bottom: 0px;"    /> 
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stormckey&hide=javascript,html,CSS&layout=compact&icon_color=fff&bg_color=30,e96443,904e95&title_color=fff&text_color=fff" alt="logo" height="140" width="450" align="right" style="margin: 5px; margin-bottom: 0px;"  />
 </p>
 
 
