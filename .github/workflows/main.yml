@@ -38,8 +38,9 @@ jobs:
           config_timezone: Asia/Shanghai
           plugin_topics: yes
           plugin_topics_mode: icons
-#           plugin_isocalendar: yes
+          plugin_topics_limit: 15
+          plugin_isocalendar: yes
 #           plugin_anilist: yes
-          config_order: topics
+          config_order: topics, isocalendar
           
           
