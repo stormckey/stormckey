@@ -15,4 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          config_timezone: Asia/Shanghai
+          plugin_followup: yes
           plugin_languages: yes
+          config_order: followup, languages,
