@@ -42,7 +42,9 @@ jobs:
           plugin_topics_mode: icons
           plugin_topics_limit: 15
           plugin_isocalendar: yes
-#           plugin_anilist: yes
-          config_order: topics, isocalendar
+          plugin_anilist: yes
+          plugin_anilist_user: stormckey
+          plugin_anilist_sections: favorites
+          config_order: topics, isocalendar, anilist
           
           
