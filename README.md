@@ -34,12 +34,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TonyCrane">
+  <a href="https://github.com/stormckey">
     <img width="400" align="top" src="https://github.com/stormckey/stormckey/blob/main/matrics-left.svg" />
   </a>
   &emsp;
-  <a href="https://github.com/TonyCrane">
-    <img width="400" align="top" src="https://github.com/stormckey/stormckey/blob/main/metrics-right.svg" />
+  <a href="https://github.com/stormckey">
+    <img width="400" align="top" src="https://github.com/stormckey/stormckey/blob/main/matrics-right.svg" />
   </a>
 </p>
 
