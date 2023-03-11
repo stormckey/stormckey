@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Schedule updates per hour
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 0 * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
@@ -44,7 +44,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_anilist: yes
           plugin_anilist_user: stormckey
-          plugin_anilist_sections: favorites
+          plugin_anilist_sections: favorites, characters
           config_order: topics, isocalendar, anilist
           
           
