@@ -1,4 +1,4 @@
-# 👋 There!
+<!-- # 👋 There!
 <p>
 <a href="https://www.cprogramming.com/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> 
 <a href="https://www.w3schools.com/cpp/"target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
@@ -22,5 +22,24 @@
 <a>
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stormckey&hide=javascript,html,CSS,shell&layout=compact&icon_color=fff&bg_color=30,e96443,904e95&title_color=fff&text_color=fff"/>
 </a>
+ -->
 
+
+<h3 align="center"> Stormckey </h3>
+
+<p align="center">
+  <samp>
+    <a href="https://stormckey.github.io/">home page</a> ∙
+  </samp>
+</p>
+
+<p align="center">
+  <a href="https://github.com/TonyCrane">
+    <img width="400" align="top" src="https://github.com/stormckey/stormckey/blob/master/metrics-left.svg" />
+  </a>
+  &emsp;
+  <a href="https://github.com/TonyCrane">
+    <img width="400" align="top" src="https://github.com/stormckey/stormckey/blob/master/metrics-right.svg" />
+  </a>
+</p>
 
