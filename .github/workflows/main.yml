@@ -35,6 +35,7 @@ jobs:
       - name: right
         uses: lowlighter/metrics@latest
         with:
+          head: ""
           token: ${{ secrets.METRICS_TOKEN }}
           filename: matrics-right.svg
           config_timezone: Asia/Shanghai
