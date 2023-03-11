@@ -18,4 +18,6 @@ jobs:
           config_timezone: Asia/Shanghai
           plugin_followup: yes
           plugin_languages: yes
-          config_order: followup, languages,
+          plugin_languages_ignored: html, css
+          plugin_starlists: yes
+          config_order: followup, languages, starlists
