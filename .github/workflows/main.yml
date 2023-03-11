@@ -33,7 +33,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Asia/Shanghai
           plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
           plugin_isocalendar: yes
-          config_order: topics, isocalendar
+          plugin_anilist: yes
+          config_order: topics, isocalendar, nailist
           
           
