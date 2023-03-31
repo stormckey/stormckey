@@ -31,7 +31,6 @@ jobs:
           plugin_languages: yes
           # repositories that wont be accounted
           plugin_languages_skipped: stormckey/dotfiles
-          plugin_languages_aliases: Jupyter Notebook:ipynb
           plugin_languages_ignored: html, css, ruby, perl, javascript
           # show the size of source code and percentage of each language
           plugin_languages_details: bytes-size, percentage
