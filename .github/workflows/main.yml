@@ -63,11 +63,11 @@ jobs:
           plugin_isocalendar: yes
           
           
-#           plugin_anilist: yes
-#           plugin_anilist_user: stormckey
-#           plugin_anilist_sections: favorites, characters
+          plugin_anilist: yes
+          plugin_anilist_user: stormckey
+          plugin_anilist_sections: favorites, characters
           
           
-#           config_order: topics, isocalendar, anilist
+          config_order: topics, isocalendar, anilist
           
           
