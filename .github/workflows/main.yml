@@ -32,7 +32,7 @@ jobs:
           # repositories that wont be accounted
           plugin_languages_indepth_custom: stormckey/stormckey.github.io
           plugin_languages_skipped: stormckey/dotfiles
-          plugin_languages_indepth: yes
+#           plugin_languages_indepth: yes
           commits_authoring: stormckey, sortygraph, sorty graph, sortygraph@gmail.com
           plugin_languages_ignored: html, css, ruby, perl, javascript
           # show the size of source code and percentage of each language
