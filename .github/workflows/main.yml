@@ -30,6 +30,7 @@ jobs:
           
           plugin_languages: yes
           # repositories that wont be accounted
+          plugin_languages_indepth_custom: stormckey/stormckey.github.io
           plugin_languages_skipped: stormckey/dotfiles
           plugin_languages_indepth: yes
           commits_authoring: stormckey, sortygraph, sorty graph, sortygraph@gmail.com
