@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1170" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1130" class="">
     <defs>
         <style/>
     </defs>
@@ -123,14 +123,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="155.1950097683048" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="155.1950097683048" y="0" width="121.2209848581036" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="276.4159946264084" y="0" width="44.773305700840034" height="8" fill="#083fa1"/>
-                    <rect mask="url(#languages-bar)" x="321.1893003272484" y="0" width="36.016694176288205" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="357.2059945035366" y="0" width="34.70766760731824" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="391.9136621108549" y="0" width="26.810175419914234" height="8" fill="#6E4C13"/>
-                    <rect mask="url(#languages-bar)" x="418.7238375307691" y="0" width="21.13471250056316" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="439.8585500313323" y="0" width="20.1414499686677" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="153.98085680313326" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="153.98085680313326" y="0" width="120.27262435072508" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="274.25348115385833" y="0" width="44.4230261270421" height="8" fill="#083fa1"/>
+                    <rect mask="url(#languages-bar)" x="318.67650728090047" y="0" width="38.03490053323645" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="356.7114078141369" y="0" width="35.73492109547135" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="392.44632890960827" y="0" width="26.600428637260233" height="8" fill="#6E4C13"/>
+                    <rect mask="url(#languages-bar)" x="419.0467575468685" y="0" width="20.969367146425054" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="440.01612469329353" y="0" width="19.98387530670646" height="8" fill="#3572A5"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -143,7 +143,7 @@
                             </div>
                             <small>
                                 <div>411 kB</div>
-                                <div>33.74%</div>
+                                <div>33.47%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -155,19 +155,19 @@
                             </div>
                             <small>
                                 <div>118 kB</div>
-                                <div>9.73%</div>
+                                <div>9.66%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#dea584" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#DA5B0B" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Rust
+                                Jupyter Notebook
                             </div>
                             <small>
-                                <div>92.1 kB</div>
-                                <div>7.55%</div>
+                                <div>95.5 kB</div>
+                                <div>7.77%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -179,7 +179,7 @@
                             </div>
                             <small>
                                 <div>56 kB</div>
-                                <div>4.59%</div>
+                                <div>4.56%</div>
                             </small>
                         </div>
                     </section>
@@ -193,19 +193,19 @@
                             </div>
                             <small>
                                 <div>321 kB</div>
-                                <div>26.35%</div>
+                                <div>26.15%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#DA5B0B" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#dea584" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Jupyter Notebook
+                                Rust
                             </div>
                             <small>
-                                <div>95.5 kB</div>
-                                <div>7.83%</div>
+                                <div>101 kB</div>
+                                <div>8.27%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -217,7 +217,7 @@
                             </div>
                             <small>
                                 <div>71.1 kB</div>
-                                <div>5.83%</div>
+                                <div>5.78%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -229,7 +229,7 @@
                             </div>
                             <small>
                                 <div>53.4 kB</div>
-                                <div>4.38%</div>
+                                <div>4.34%</div>
                             </small>
                         </div>
                     </section>
@@ -421,23 +421,24 @@
                                                 <path fill-rule="evenodd" d="M4 5.75C4 4.784 4.784 4 5.75 4h4.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0110.25 12h-4.5A1.75 1.75 0 014 10.25v-4.5zm1.75-.25a.25.25 0 00-.25.25v4.5c0 .138.112.25.25.25h4.5a.25.25 0 00.25-.25v-4.5a.25.25 0 00-.25-.25h-4.5z"/>
                                             </svg>
                                             <div class="name">
-                                                <span>labmlai/annotated_deep_learning_paper_implementations</span>
+                                                <span>openai/guided-diffusion</span>
                                                 <span></span>
                                             </div>
                                         </div>
-                                        <div class="field description">🧑‍🏫 60 Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gan…</div>
+                                        <div class="field description">
+                                        </div>
                                         <div class="field infos">
                                             <div class="language">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                                    <path fill="#da5b0b" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                                    <path fill="#3572a5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                                 </svg>
-                                                Jupyter Notebook
+                                                Python
                                             </div>
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="11" height="11">
                                                     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                                                 </svg>
-                                                35.9k
+                                                4.58k
                                             </div>
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="11" height="11">
@@ -455,11 +456,11 @@
                                                 <path fill-rule="evenodd" d="M4 5.75C4 4.784 4.784 4 5.75 4h4.5c.966 0 1.75.784 1.75 1.75v4.5A1.75 1.75 0 0110.25 12h-4.5A1.75 1.75 0 014 10.25v-4.5zm1.75-.25a.25.25 0 00-.25.25v4.5c0 .138.112.25.25.25h4.5a.25.25 0 00.25-.25v-4.5a.25.25 0 00-.25-.25h-4.5z"/>
                                             </svg>
                                             <div class="name">
-                                                <span>pytorch/pytorch</span>
+                                                <span>ethanluoyc/pytorch-vae</span>
                                                 <span></span>
                                             </div>
                                         </div>
-                                        <div class="field description">Tensors and Dynamic neural networks in Python with strong GPU acceleration</div>
+                                        <div class="field description">A Variational Autoencoder (VAE) implemented in PyTorch</div>
                                         <div class="field infos">
                                             <div class="language">
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -471,7 +472,7 @@
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="11" height="11">
                                                     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                                                 </svg>
-                                                70.7k
+                                                361
                                             </div>
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="11" height="11">
@@ -687,7 +688,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 14 Sept 2023, 20:28:11 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 14 Sept 2023, 21:18:43 (timezone Asia/Shanghai) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
