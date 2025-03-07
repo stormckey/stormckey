@@ -27,6 +27,7 @@ jobs:
           filename: matrics-left.svg
           config_timezone: Europe/Copenhagen
           # config_timezone: Asia/Shanghai
+
           template: classic
           base: header, activity, community, repositories, metadata
 
@@ -81,5 +82,5 @@ jobs:
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam: yes
           plugin_steam_user: "76561198403743308"
-          plugin_steam_sections: most-played, recently-played
+          plugin_steam_sections: player, most-played, recently-played
           plugin_steam_achievements_limit: 0
