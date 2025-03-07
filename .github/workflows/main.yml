@@ -29,14 +29,14 @@ jobs:
           
           
           plugin_languages: yes
-          # repositories that wont be accounted
+          # repositories that want be accounted
 #           plugin_languages_indepth_custom: stormckey/stormckey.github.io
-          plugin_languages_skipped: stormckey/dotfiles
-#           plugin_languages_indepth: yes
-#           commits_authoring: stormckey
+#          plugin_languages_skipped: stormckey/dotfiles
+          plugin_languages_indepth: yes
+          commits_authoring: stormckey@chenhaogao123@gmail.com, stormckey@3210106354@zju.edu.cn, stromckey@sortygraph.gmail.com
           plugin_languages_ignored: html, css, ruby, perl, javascript, yacc
           # show the size of source code and percentage of each language
-          plugin_languages_details: bytes-size, percentage
+          plugin_languages_details: lines, percentage
           
           
           plugin_starlists: yes
