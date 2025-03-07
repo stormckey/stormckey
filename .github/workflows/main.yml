@@ -25,7 +25,8 @@ jobs:
 
           # the file this action generates
           filename: matrics-left.svg
-          config_timezone: Asia/Shanghai
+          congif_timezone: Europe/Copenhagen
+          # config_timezone: Asia/Shanghai
 
           # language analysis
           plugin_languages: yes
@@ -34,7 +35,7 @@ jobs:
           plugin_languages_aliases: Jupyter Notebook:Ipynb
           plugin_languages_sections: recently-used, most-used
           plugin_languages_details: lines, percentage
-          plugin_langauge_recent_days: 90
+          plugin_langauges_recent_days: 90
           plugin_languages_recent_load: 600
           plugin_languages_limit: 8
 
@@ -43,10 +44,11 @@ jobs:
           plugin_habits_facts: no
           plugin_habits_charts: yes
 
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
+          #opened by the user
+          plugin_followup: yes
+          plugin_followup_sections: user
 
-          config_order: followup, languages, starlists
+          config_order: languages, habits, followup
 
   github-right-metrics:
     runs-on: ubuntu-latest
