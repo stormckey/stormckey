@@ -25,7 +25,7 @@ jobs:
 
           # the file this action generates
           filename: matrics-left.svg
-          congif_timezone: Europe/Copenhagen
+          config_timezone: Europe/Copenhagen
           # config_timezone: Asia/Shanghai
 
           # coding habit
@@ -60,7 +60,7 @@ jobs:
           base: ""
           token: ${{ secrets.METRICS_TOKEN }}
           filename: matrics-right.svg
-          congif_timezone: Europe/Copenhagen
+          config_timezone: Europe/Copenhagen
           # config_timezone: Asia/Shanghai
 
           # language analysis
