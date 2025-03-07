@@ -46,7 +46,7 @@ jobs:
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
-          config_order: base, habits, followup, isocalendar, activity
+          config_order: header, habits, followup, isocalendar, activity
 
   github-right-metrics:
     runs-on: ubuntu-latest
@@ -80,7 +80,7 @@ jobs:
 
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam: yes
-          plugin_steam_user: "1692328261"
+          plugin_steam_user: "76561198403743308"
           plugin_steam_sections: most-played, recently-played
           plugin_steam_achievements_limit: 0
 
