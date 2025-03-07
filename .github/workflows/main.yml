@@ -31,7 +31,7 @@ jobs:
           plugin_languages: yes
           # repositories that want be accounted
 #           plugin_languages_indepth_custom: stormckey/stormckey.github.io
-#          plugin_languages_skipped: stormckey/dotfiles
+          plugin_languages_skipped: flix/flix, stormckey/flix
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 60
           commits_authoring: stormckey@chenhaogao123@gmail.com, stormckey@3210106354@zju.edu.cn, stromckey@sortygraph.gmail.com
