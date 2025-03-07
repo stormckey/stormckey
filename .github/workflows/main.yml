@@ -21,6 +21,7 @@ jobs:
         with:
           filename: most-used-languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, javascript
           plugin_languages_indepth: yes
@@ -37,6 +38,7 @@ jobs:
         with:
           filename: recently-used-languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, javascript
           plugin_languages_sections: recently-used
