@@ -37,13 +37,16 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: user
 
+          # isocalendar
+          plugin_isocalendar: yes
+
           # activity
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
-          config_order: base, habits, followup
+          config_order: base, habits, followup, isocalendar, activity
 
   github-right-metrics:
     runs-on: ubuntu-latest
@@ -71,13 +74,14 @@ jobs:
           plugin_languages_recent_load: 600
           plugin_languages_limit: 8
 
-          plugin_topics: yes
-          plugin_topics_mode: icons
-
-          plugin_isocalendar: yes
-
           plugin_anilist: yes
           plugin_anilist_user: stormckey
           plugin_anilist_sections: favorites, characters
 
-          config_order: languages, topics, isocalendar, anilist
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam: yes
+          plugin_steam_user: "stormckey"
+          plugin_steam_sections: most-played, recently-played
+          plugin_steam_achievements_limit: 0
+
+          config_order: languages, anilist, steam
