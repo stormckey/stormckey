@@ -28,27 +28,22 @@ jobs:
           congif_timezone: Europe/Copenhagen
           # config_timezone: Asia/Shanghai
 
-          # language analysis
-          plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, javascript
-          plugin_languages_indepth: yes
-          plugin_languages_aliases: Jupyter Notebook:Ipynb
-          plugin_languages_sections: recently-used, most-used
-          plugin_languages_details: lines, percentage
-          plugin_langauges_recent_days: 90
-          plugin_languages_recent_load: 600
-          plugin_languages_limit: 8
-
-          #coding habit
+          # coding habit
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
 
-          #opened by the user
+          # opened by the user
           plugin_followup: yes
           plugin_followup_sections: user
 
-          config_order: languages, habits, followup
+          # activity
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
+          config_order: base, habits, followup
 
   github-right-metrics:
     runs-on: ubuntu-latest
@@ -62,7 +57,19 @@ jobs:
           base: ""
           token: ${{ secrets.METRICS_TOKEN }}
           filename: matrics-right.svg
-          config_timezone: Asia/Shanghai
+          congif_timezone: Europe/Copenhagen
+          # config_timezone: Asia/Shanghai
+
+          # language analysis
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, javascript
+          plugin_languages_indepth: yes
+          plugin_languages_aliases: Jupyter Notebook:Ipynb
+          plugin_languages_sections: recently-used, most-used
+          plugin_languages_details: lines, percentage
+          plugin_langauges_recent_days: 90
+          plugin_languages_recent_load: 600
+          plugin_languages_limit: 8
 
           plugin_topics: yes
           plugin_topics_mode: icons
@@ -73,4 +80,4 @@ jobs:
           plugin_anilist_user: stormckey
           plugin_anilist_sections: favorites, characters
 
-          config_order: topics, isocalendar, anilist
+          config_order: languages, topics, isocalendar, anilist
