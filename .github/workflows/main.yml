@@ -24,7 +24,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # the file this action generates
-          filename: matrics-left.svg
+          filename: metrics-left.svg
           config_timezone: Europe/Copenhagen
           # config_timezone: Asia/Shanghai
 
@@ -60,7 +60,7 @@ jobs:
           #disable the basic metrics
           base: ""
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: matrics-right.svg
+          filename: metrics-right.svg
           config_timezone: Europe/Copenhagen
           # config_timezone: Asia/Shanghai
 
