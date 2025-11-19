@@ -55,8 +55,11 @@ jobs:
       contents: write
     steps:
       - name: right
-        uses: lowlighter/metrics@latest
+        # uses: lowlighter/metrics@latest
+        uses: oddstr13/github-profile-metrics@odd-choices
         with:
+          use_prebuilt_image: no
+        # the above is to fix committer problem from https://github.com/lowlighter/metrics/pull/1754
           #disable the basic metrics
           base: ""
           token: ${{ secrets.METRICS_TOKEN }}
@@ -66,8 +69,6 @@ jobs:
 
           # language analysis
           plugin_languages: yes
-          # fix undefined committer
-          plugin_languages_ignored_properties: isBot, isWebhook
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, javascript
           plugin_languages_indepth: yes
           plugin_languages_aliases: Jupyter Notebook:Ipynb
