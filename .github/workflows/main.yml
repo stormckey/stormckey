@@ -66,6 +66,8 @@ jobs:
 
           # language analysis
           plugin_languages: yes
+          # fix undefined committer
+          plugin_languages_ignored_properties: isBot, isWebhook
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, javascript
           plugin_languages_indepth: yes
           plugin_languages_aliases: Jupyter Notebook:Ipynb
