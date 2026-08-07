@@ -25,8 +25,7 @@ jobs:
 
           # the file this action generates
           filename: metrics-left.svg
-          config_timezone: Europe/Copenhagen
-          # config_timezone: Asia/Shanghai
+          config_timezone: America/Los_Angeles
 
           template: classic
           base: header, activity, community, repositories, metadata
@@ -35,6 +34,9 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
+          # Profile updates can produce PushEvents without a commits array,
+          # which crashes the habits plugin in metrics v3.34.0.
+          plugin_habits_skipped: stormckey/stormckey
 
           # opened by the user
           plugin_followup: yes
@@ -48,6 +50,8 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          # Skip this repository for the same malformed self-update events.
+          plugin_activity_skipped: stormckey/stormckey
 
   github-right-metrics:
     runs-on: ubuntu-latest
@@ -64,8 +68,7 @@ jobs:
           base: ""
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics-right.svg
-          # config_timezone: Europe/Copenhagen
-          config_timezone: Asia/Shanghai
+          config_timezone: America/Los_Angeles
 
           # language analysis
           plugin_languages: yes
